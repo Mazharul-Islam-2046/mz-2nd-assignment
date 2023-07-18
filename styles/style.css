@@ -1,0 +1,93 @@
+body {
+	margin: 0px auto;
+	max-width: 1920px;
+	font-family: "Bangers", cursive;
+	font-family: "Fredoka", sans-serif;
+	font-family: "Varela Round", sans-serif;
+}
+
+header {
+	margin: 0px auto;
+	padding: 0.2rem 0.2rem 0.4rem;
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 2px 2px 20px #53535315;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 80vw;
+}
+
+.logo-link {
+	text-decoration: none;
+}
+
+.logo-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	gap: 2vw;
+}
+
+.logo {
+	height: 35px;
+}
+
+.logo-text {
+	color: #0b0223;
+	text-align: center;
+	font-family: "Fredoka";
+	font-size: 45px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.pink-g {
+	color: #ff42a5;
+}
+
+.menu-container {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	gap: 2vw;
+}
+
+.menu {
+	color: #3c354f;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Fredoka";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.follow-us-container {
+	margin-left: 1.5vw;
+	padding: 0.75vw 2vw 0.8vw;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	gap: 1vw;
+	background: #0b022318;
+	border-radius: 5px;
+}
+
+.follow-us {
+	margin: 0;
+	color: #3c354f;
+	text-align: center;
+	font-family: "Fredoka";
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
