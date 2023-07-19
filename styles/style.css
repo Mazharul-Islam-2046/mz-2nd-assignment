@@ -286,12 +286,122 @@ header {
 	line-height: 45px;
 }
 
+/* Funny videos section styles */
+.funny-videos {
+	margin: 12vh auto 25vh;
+}
+
+.funny-videos-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.funny-videos-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.funny-videos-title {
+	margin: 0 0 10px;
+	color: #0b0223;
+	text-align: right;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.funny-videos-descrptn {
+	margin: 0;
+	color: #534c64;
+	font-family: Work Sans;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+
+.violate-text {
+	background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.card-container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	width: 80vw;
+	gap: 25px;
+}
+
+.card {
+	margin-top: 5vw;
+}
+
+.card-img {
+	width: 100%;
+}
+
+.img-container-blur {
+	position: relative;
+}
+
+.play-icon {
+	padding: 10px 12px;
+	border-radius: 50px;
+	background-color: #f948b2;
+	color: #eee7ff;
+}
+
+.play-now {
+	color: #eee7ff;
+}
+
+.blur {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	background-color: transparent;
+	position: absolute;
+	bottom: 0;
+	z-index: 1;
+	opacity: 0%;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.blur:hover {
+	background-color: rgba(0, 0, 0, 0.466);
+	opacity: 100%;
+}
+
+.card-dscrptn {
+	color: #534c64;
+	font-family: Work Sans;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 30px;
+}
+
 /* Play Games Online Section Styles */
 .play-game-online {
 	margin: 15vh auto 20vh;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	background-color: #f6f3ff9f;
+	height: 60vh;
 }
 
 .play-game-online-img-container {
@@ -480,7 +590,7 @@ footer {
 	justify-content: center;
 	align-items: center;
 	gap: 20px;
-	font-size: .8rem;
+	font-size: 0.8rem;
 }
 
 .terms-link {
@@ -490,7 +600,6 @@ footer {
 
 .copy-rights {
 	margin-top: 35px;
-	font-size: .7rem;
+	font-size: 0.7rem;
 	color: #faf9ffb9;
 }
-
