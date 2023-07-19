@@ -813,6 +813,8 @@ height: 25px;
 .footer-menu-container {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
+	gap: 0px;
+	width: 80vw;
 }
 
 
