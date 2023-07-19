@@ -34,7 +34,7 @@ header {
 }
 
 .logo-container {
-	margin: 0;
+	margin: 0 0 0 3vw;
 	padding: 0;
 	display: flex;
 	justify-content: space-around;
@@ -347,3 +347,150 @@ header {
 	font-weight: 400;
 	line-height: 30px;
 }
+
+/* Game Link Section Styles */
+.game-links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 15vw auto 10vw;
+	padding: 2vw 0;
+}
+
+.game-container {
+	display: grid;
+	width: 90vw;
+	column-gap: 5px;
+	row-gap: 20px;
+	grid-template-rows: 50% 50%;
+	grid-template-columns: repeat(10, 1fr);
+}
+
+.games:nth-child(6) {
+	grid-column: 2 / span 2;
+}
+
+.games {
+	padding: 5px 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	grid-column: span 2;
+	gap: 15px;
+	border: 2px solid transparent;
+	border-radius: 50px;
+	background-color: white;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.games:hover {
+	color: #ff42a5;
+	border-color: #ff42a5;
+	border-radius: 50px;
+	background-color: white;
+}
+
+.game-img {
+	margin: 0;
+	padding: 0;
+	border: none;
+	border-radius: 100%;
+	width: 50px;
+}
+
+.game-title {
+	margin: 0;
+	padding: 0;
+}
+
+/* Footer Styles */
+footer {
+	margin: 0 auto;
+	padding: 0 25vw 8vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60vh;
+	background-color: #0b0223;
+}
+
+.footer-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-logo-link {
+	text-decoration: none;
+	margin: 0;
+}
+
+.footer-logo {
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.footer-logo-text {
+	color: white;
+}
+
+.footer-menu-container {
+	margin-bottom: 40px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	gap: 25px;
+}
+
+.footer-menu {
+	font-size: 1rem;
+	text-decoration: none;
+	color: white;
+	transition: all 0.3s ease;
+}
+
+.footer-menu:hover {
+	color: #3c354f;
+}
+
+.footer-socials {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 30vw;
+}
+
+.socials-icon {
+	color: white;
+	transition: all 0.3s ease;
+}
+
+.socials-icon:hover {
+	color: #3c354f;
+}
+
+.footer-terms-n-condition {
+	margin-top: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	font-size: .8rem;
+}
+
+.terms-link {
+	text-decoration: none;
+	color: #bdacec;
+}
+
+.copy-rights {
+	margin-top: 35px;
+	font-size: .7rem;
+	color: #faf9ffb9;
+}
+
