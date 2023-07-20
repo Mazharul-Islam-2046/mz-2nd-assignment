@@ -440,7 +440,6 @@ header {
 	width: 40%;
 }
 
-
 /* Content Part Styles */
 .play-game-online-content {
 	padding-left: 12vw;
@@ -572,7 +571,6 @@ footer {
 	color: white;
 }
 
-
 /* Footer Menu Styles */
 .footer-menu-container {
 	margin-bottom: 40px;
@@ -593,7 +591,6 @@ footer {
 	color: #3c354f;
 }
 
-
 /* Footer Socials Styles */
 .footer-socials {
 	display: flex;
@@ -611,7 +608,6 @@ footer {
 	color: #3c354f;
 }
 
-
 /* Footer Terms And Conditions Styles */
 .footer-terms-n-condition {
 	margin-top: 35px;
@@ -627,14 +623,12 @@ footer {
 	color: #bdacec;
 }
 
-
 /* Footer Copy-Rights Styles */
 .copy-rights {
 	margin-top: 35px;
 	font-size: 0.7rem;
 	color: #faf9ffb9;
 }
-
 
 /* Mobile Responsive */
 
@@ -823,6 +817,10 @@ footer {
 	}
 
 	/* footer responsive */
+	.footer-logo {
+		margin-bottom: 25px;
+	}
+
 	.logo {
 		height: 25px;
 	}
@@ -834,7 +832,16 @@ footer {
 	.footer-menu-container {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		gap: 0px;
+		gap: 20px;
 		width: 80vw;
 	}
+
+	.footer-socials {
+		gap: 20px;
+	}
+
+	.footer-terms-n-condition {
+		gap: 15px;
+	}
+
 }
