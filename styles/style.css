@@ -486,16 +486,21 @@ header {
 }
 
 .game-container {
-	display: grid;
-	width: 90vw;
-	column-gap: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 1100px;
+	column-gap: 20px;
 	row-gap: 20px;
 	grid-template-rows: 50% 50%;
 	grid-template-columns: repeat(10, 1fr);
 }
 
-.games:nth-child(6) {
-	grid-column: 2 / span 2;
+.btn-6 {
+	margin-left: 5vw;
+}
+
+.btn-9 {
+	margin-right: 5vw;
 }
 
 /* Btn Styles */
