@@ -4,10 +4,12 @@ body {
 	font-family: "Work Sans", sans-serif;
 }
 
+/* Header Section Styles */
 header {
 	margin: 0px auto;
 }
 
+/* Navbar Styles */
 .navbar {
 	margin: 0px auto;
 	padding: 0 0.2rem;
@@ -27,6 +29,7 @@ header {
 	width: 80vw;
 }
 
+/* Logo Part Styles */
 .logo-link {
 	text-decoration: none;
 	margin: 0;
@@ -61,6 +64,7 @@ header {
 	color: #ff42a5;
 }
 
+/* Menu Part Styles */
 .menu-container {
 	margin: 0;
 	display: flex;
@@ -101,6 +105,7 @@ header {
 	font-weight: 500;
 	line-height: normal;
 }
+/* ---Navbar Ends--- */
 
 /* Hero Section Styles */
 .hero-section {
@@ -111,6 +116,7 @@ header {
 	box-shadow: 5px 10px 10px #0b022304;
 }
 
+/* Hero Content Styles */
 .hero-content {
 	margin: 0;
 	padding-top: 4vh;
@@ -169,7 +175,9 @@ header {
 	font-weight: 500;
 	line-height: normal;
 }
+/* ------Hero Content Ends----- */
 
+/* Hero Image Styles */
 .hero-img-container {
 	width: 50vw;
 	padding-top: 2vw;
@@ -223,9 +231,11 @@ header {
 	text-transform: uppercase;
 	cursor: pointer;
 }
+/* -------Hero Styles Ends------- */
+/* ----Hero Section Ends---- */
+/* ----------------------------------------------------------------------- */
 
 /* We are gamer section styles */
-
 .we-r-gamer {
 	margin: 0;
 	padding: 0vw 10vw 6vw;
@@ -234,10 +244,12 @@ header {
 	align-items: center;
 }
 
+/* We Are Gamer Img Styles */
 .we-r-gamer-img {
 	width: 100%;
 }
 
+/* We Are Gamer Content Styles */
 .we-r-gamer-content-container {
 	padding-top: 6vw;
 	text-align: right;
@@ -297,6 +309,7 @@ header {
 	align-items: center;
 }
 
+/* Funny Videos Content Styles */
 .funny-videos-content {
 	display: flex;
 	flex-direction: column;
@@ -331,6 +344,7 @@ header {
 	-webkit-text-fill-color: transparent;
 }
 
+/* Card Styles */
 .card-container {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -346,6 +360,16 @@ header {
 	width: 100%;
 }
 
+.card-dscrptn {
+	color: #534c64;
+	font-family: Work Sans;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 30px;
+}
+
+/* Overlay Styles */
 .img-container-blur {
 	position: relative;
 }
@@ -379,21 +403,14 @@ header {
 	transition: all 0.3s ease;
 }
 
+/* Overlay Animation */
 .blur:hover {
 	background-color: rgba(0, 0, 0, 0.466);
 	opacity: 100%;
 }
 
-.card-dscrptn {
-	color: #534c64;
-	font-family: Work Sans;
-	font-size: 20px;
-	font-style: normal;
-	font-weight: 500;
-	line-height: 30px;
-}
-
 /* Play Games Online Section Styles */
+/* play-game-online=> Class of this Section */
 .play-game-online {
 	margin: 15vh auto 20vh;
 	display: flex;
@@ -403,6 +420,7 @@ header {
 	height: 60vh;
 }
 
+/* img part styles */
 .play-game-online-img-container {
 	display: flex;
 	justify-content: end;
@@ -422,6 +440,8 @@ header {
 	width: 40%;
 }
 
+
+/* Content Part Styles */
 .play-game-online-content {
 	padding-left: 12vw;
 	display: flex;
@@ -479,6 +499,7 @@ header {
 	grid-column: 2 / span 2;
 }
 
+/* Btn Styles */
 .games {
 	padding: 5px 2px;
 	display: flex;
@@ -493,6 +514,7 @@ header {
 	transition: all 0.3s ease;
 }
 
+/* Btn Hover Animation */
 .games:hover {
 	color: #ff42a5;
 	border-color: #ff42a5;
@@ -500,6 +522,7 @@ header {
 	background-color: white;
 }
 
+/* Btn Content Styles */
 .game-img {
 	margin: 0;
 	padding: 0;
@@ -531,6 +554,7 @@ footer {
 	align-items: center;
 }
 
+/* Footer Logo Styles */
 .footer-logo-link {
 	text-decoration: none;
 	margin: 0;
@@ -548,6 +572,8 @@ footer {
 	color: white;
 }
 
+
+/* Footer Menu Styles */
 .footer-menu-container {
 	margin-bottom: 40px;
 	display: flex;
@@ -567,6 +593,8 @@ footer {
 	color: #3c354f;
 }
 
+
+/* Footer Socials Styles */
 .footer-socials {
 	display: flex;
 	justify-content: space-evenly;
@@ -583,6 +611,8 @@ footer {
 	color: #3c354f;
 }
 
+
+/* Footer Terms And Conditions Styles */
 .footer-terms-n-condition {
 	margin-top: 35px;
 	display: flex;
@@ -597,15 +627,14 @@ footer {
 	color: #bdacec;
 }
 
+
+/* Footer Copy-Rights Styles */
 .copy-rights {
 	margin-top: 35px;
 	font-size: 0.7rem;
 	color: #faf9ffb9;
 }
 
-.hide {
-	display: none;
-}
 
 /* Mobile Responsive */
 
@@ -686,7 +715,6 @@ footer {
 
 	.we-r-gamer-content-container {
 		text-align: center;
-
 	}
 
 	.we-r-gamer-title {
@@ -711,19 +739,16 @@ footer {
 		line-height: 32px;
 	}
 
-
-
-
 	/* Funny Videos Section Responsive */
-.funny-videos-title {
-	font-size: 25px;
-	text-align: center;
-}
+	.funny-videos-title {
+		font-size: 25px;
+		text-align: center;
+	}
 
-.funny-videos-descrptn {
-	font-size: 14px;
-	text-align: center;
-}
+	.funny-videos-descrptn {
+		font-size: 14px;
+		text-align: center;
+	}
 
 	.card-container {
 		grid-template-columns: repeat(1, 1fr);
@@ -733,89 +758,83 @@ footer {
 		width: 100%;
 	}
 
+	/* play game online responsive */
+	.play-game-online {
+		padding-top: 10vh;
+		flex-direction: column-reverse;
+	}
 
-/* play game online responsive */
-.play-game-online {
-	padding-top: 10vh;
-	flex-direction: column-reverse;
-}
+	.play-game-online-img-container {
+		width: 100vw;
+		justify-content: center;
+	}
 
-.play-game-online-img-container {
-	width: 100vw;
-	justify-content: center;
-}
+	.main-img {
+		width: 80%;
+	}
 
-.main-img {
-	width: 80%;
-}
+	.second-img {
+		width: 25%;
+		right: -0.1vw;
+		bottom: -1.5vw;
+	}
 
-.second-img {
-	width: 25%;
-	right: -0.1vw;
-	bottom: -1.5vw;
-}
+	.play-game-online-content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 25px 10px;
+		width: 90%;
+		text-align: center;
+	}
 
-.play-game-online-content {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding: 25px 10px;
-	width: 90%;
-	text-align: center;
-}
+	.play-game-online-title {
+		font-size: 28px;
+		line-height: 40px;
+	}
 
-.play-game-online-title {
-	font-size: 28px;
-	line-height: 40px;
-}
+	.play-game-online-descr {
+		font-size: 14px;
+		line-height: 24px;
+	}
 
-.play-game-online-descr {
-	font-size: 14px;
-	line-height: 24px;
-}
+	/* Game Link Responsive */
 
+	.game-links {
+		padding: 20vh 0px;
+	}
 
+	.game-container {
+		display: flex;
+		flex-wrap: wrap;
+	}
 
-/* Game Link Responsive */
+	.games {
+		gap: 2px;
+	}
 
-.game-links {
-	padding: 20vh 0px;
+	.game-img {
+		width: 17px;
+	}
 
-}
+	.game-title {
+		font-size: 0.7rem;
+	}
 
-.game-container {
-	display: flex;
-	flex-wrap: wrap;
-}
+	/* footer responsive */
+	.logo {
+		height: 25px;
+	}
 
-.games {
-	gap: 2px;
-}
+	.footer-logo-text {
+		font-size: 28px;
+	}
 
-.game-img {
-	width: 17px;
-}
-
-.game-title {
-	font-size: .7rem;
-}
-
-/* footer responsive */
-.logo {
-height: 25px;
-}
-
-.footer-logo-text {
-	font-size: 28px;
-}
-
-.footer-menu-container {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	gap: 0px;
-	width: 80vw;
-}
-
-
+	.footer-menu-container {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 0px;
+		width: 80vw;
+	}
 }
